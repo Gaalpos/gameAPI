@@ -1,6 +1,5 @@
 const apiKey = 'c3f64c69e17f4941988e1cb67acc9ddb';
 
-
 async function asyncMethod() {
     // console.log('async method');
     const gameName = document.getElementById('gameName').value.trim();
@@ -76,12 +75,8 @@ function promiseMethod() {
             alert('An error occurred while fetching game data');
         });
 }
-
-
 function chooseMethod() {
-    let min = 0;
-    let max = 10
-    const randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
+    const randomNum = Math.floor(Math.random() * (10 - 0 + 1)) + 0;
     //console.log(randomNum)
     if (randomNum < 5) {
         asyncMethod();
