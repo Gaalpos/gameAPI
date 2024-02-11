@@ -6,3 +6,4 @@ Create a simple web interface in which you implement calls to an API of your cho
 
 The user inputs the name of a game. At submit, a random number between 0 and 10 gets generated. If the number is lower than 5, async/await gets used. If its higher or equals to 5 we uses promises.
 
+https://gaalpos.github.io/gameAPI/
