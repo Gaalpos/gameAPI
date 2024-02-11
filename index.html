@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Game info</h1>
+        <img src="./bart.jpg" alt="bart simpson on the computer" width="10%">
+        <form id="gameForm">
+            <label for="gameName"> Search a game to get release date and metacritic score.</label>
+            <p></p>
+            <label for="gameName"> The method (async/await or promise) is randomly selected.</label>
+            <p></p>
+            <label for="label"> Game:</label>
+            <input type="text" id="gameName" placeholder="Enter game name">
+            <button type="submit">CLICK HERE!</button>
+
+        </form>
+        <div id="method"></div>
+        <div id="coverArt"></div>
+        <div id="name"></div>
+        <div id="released"></div>
+        <div id="rating"></div>
+
+        <script src="./src/script.js"></script>
+        <script src="./src/rgb.js"></script>
+    </div>
+
+</body>
+
+</html>
